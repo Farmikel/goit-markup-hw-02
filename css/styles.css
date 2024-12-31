@@ -1,11 +1,8 @@
 body {
-  font-family: "Roboto", sels-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
   line-height: 24px;
-}
-
-header {
   background-color: #ffffff;
 }
 
@@ -19,7 +16,6 @@ button {
 
 a {
   text-decoration: none;
-  font-style: normal;
 }
 
 ul {
@@ -27,12 +23,13 @@ ul {
 }
 
 .logo {
-  font-family: "Raleway", self-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 21px;
+  line-height: 1.17;
   letter-spacing: 3%;
+  color: #4D5AE5;
 }
 
 .first-logo-part {
@@ -43,17 +40,37 @@ ul {
   color: #2E2F42;
 }
 
-nav a {
+nav li a{
+  letter-spacing: 2%;
+  font-weight: 500;
   color: #2E2F42;
+}
+
+nav li a:hover,
+nav li a:focus {
+  color: #404bbf;
+}
+
+.website-navigation {
+  letter-spacing: 2%;
 }
 
 address a {
   color: #434455;
+  font-style: normal;
 }
 
-header li:hover,
-header li:focus {
-  text-decoration: underline;
+.contact-links {
+  letter-spacing: 2%;
+}
+
+.contact-links:hover,
+.contact-links:focus {
+  color: #404bbf;
+}
+
+.contact-info {
+  letter-spacing: 2%;
 }
 
 .hero-section {
@@ -62,9 +79,10 @@ header li:focus {
 
 .page-title {
   color: #ffffff;
-  line-height: 60px;
+  line-height: 1.07;
   font-size: 56px;
   font-weight: 700;
+  letter-spacing: 2%;
 }
 
 .order-button {
@@ -73,18 +91,23 @@ header li:focus {
   border: none;
   letter-spacing: 4%;
   line-height: 24px;
-  font-size: 500;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 4%;
+  font-weight: 500;
 }
 
-.about-section {
-  background-color: #ffffff;
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
 }
 
 .section-title {
   color: #2E2F42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 2%;
+  text-transform: capitalize;
 }
 
 .title {
@@ -92,21 +115,39 @@ header li:focus {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.about-title-info {
+  letter-spacing: 2%;
 }
 
 .team-section {
   background-color: #F4F4FD;
 }
 
-.portfolio-section {
-  background-color: white;
+.team-info {
+  background-color: #ffffff;
 }
 
-footer {
+.position {
+  font-size: 16px;
+  letter-spacing: 2%;
+}
+
+.footer {
   background-color: #2E2F42;
   color: #F4F4FD;
 }
 
-footer .second-logo-part {
+.footer .second-logo-part {
   color: #F4F4FD;
+}
+
+.footer .footer-text {
+  letter-spacing: 2%;
+}
+
+.app-working-field {
+  letter-spacing: 2%;
 }
