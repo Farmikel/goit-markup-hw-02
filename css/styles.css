@@ -28,7 +28,7 @@ ul {
   font-weight: 700;
   text-transform: uppercase;
   line-height: 1.17;
-  letter-spacing: 3%;
+  letter-spacing: 0.03em;
   color: #4D5AE5;
 }
 
@@ -41,7 +41,7 @@ ul {
 }
 
 nav li a{
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   font-weight: 500;
   color: #2E2F42;
 }
@@ -52,16 +52,16 @@ nav li a:focus {
 }
 
 .website-navigation {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 address a {
   color: #434455;
-  font-style: normal;
 }
 
 .contact-links {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+  font-style: normal
 }
 
 .contact-links:hover,
@@ -70,7 +70,12 @@ address a {
 }
 
 .contact-info {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
+}
+
+.contact-info:hover,
+.contact-info:focus {
+  color: #404bbf;
 }
 
 .hero-section {
@@ -82,17 +87,16 @@ address a {
   line-height: 1.07;
   font-size: 56px;
   font-weight: 700;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .order-button {
   background-color: #4D5AE5;
   color: white;
   border: none;
-  letter-spacing: 4%;
+  letter-spacing: 0.04em;
   line-height: 24px;
   font-family: "Roboto", sans-serif;
-  letter-spacing: 4%;
   font-weight: 500;
 }
 
@@ -106,7 +110,7 @@ address a {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -115,11 +119,11 @@ address a {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .about-title-info {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .team-section {
@@ -132,7 +136,7 @@ address a {
 
 .position {
   font-size: 16px;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .footer {
@@ -145,9 +149,9 @@ address a {
 }
 
 .footer .footer-text {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 .app-working-field {
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
