@@ -1,0 +1,112 @@
+body {
+  font-family: "Roboto", sels-serif;
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: "Raleway", self-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 21px;
+  letter-spacing: 3%;
+}
+
+.first-logo-part {
+  color: #4D5AE5;
+}
+
+.second-logo-part {
+  color: #2E2F42;
+}
+
+nav a {
+  color: #2E2F42;
+}
+
+address a {
+  color: #434455;
+}
+
+header li:hover,
+header li:focus {
+  text-decoration: underline;
+}
+
+.hero-section {
+  background-color: #2E2F42;
+}
+
+.page-title {
+  color: #ffffff;
+  line-height: 60px;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.order-button {
+  background-color: #4D5AE5;
+  color: white;
+  border: none;
+  letter-spacing: 4%;
+  line-height: 24px;
+  font-size: 500;
+}
+
+.about-section {
+  background-color: #ffffff;
+}
+
+.section-title {
+  color: #2E2F42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.title {
+  color: #2E2F42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.team-section {
+  background-color: #F4F4FD;
+}
+
+.portfolio-section {
+  background-color: white;
+}
+
+footer {
+  background-color: #2E2F42;
+  color: #F4F4FD;
+}
+
+footer .second-logo-part {
+  color: #F4F4FD;
+}
